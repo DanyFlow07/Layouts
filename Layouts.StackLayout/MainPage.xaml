@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layouts.StackLayout.MainPage"
+             BackgroundColor="Aqua"
+             >
+
+    <StackLayout
+        Orientation="Horizontal"
+    BackgroundColor="Beige"
+        Margin="20,30,40,50"
+        Padding="12"
+        Spacing="10"
+    >
+        <Label
+            BackgroundColor="Orange"
+       Text="Net Maui"
+       />
+        <Button
+            Text="Uno">
+        </Button>
+        <Button
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Text="Dos">
+        </Button>
+        <Button
+            Text="Tres">
+        </Button>
+        <Button
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+            Text="Cuatro">
+        </Button>
+        <Button
+            Text="Cinco">
+        </Button>
+        <Button
+             HorizontalOptions="Center"
+             VerticalOptions="End"
+            BackgroundColor="ForestGreen"
+            Text="Seis">
+        </Button>
+    </StackLayout>
+</ContentPage>
